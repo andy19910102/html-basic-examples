@@ -1,0 +1,79 @@
+body {
+    /* 使用微軟正黑體 */
+    font-family: 'Microsoft Jhenghei';
+}
+
+/*============ cards 頁面 ============*/
+.cards {
+
+}
+
+.card {
+
+}
+
+.card-img {
+
+}
+
+.card-body {
+
+}
+
+.card-title {
+
+}
+
+.card-text {
+    
+}
+
+/*============ table 頁面 ============*/
+
+
+/*============ form 頁面 ============*/
+.form-box {
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
+    overflow: hidden;
+}
+
+.form-header {
+    background-color: #33c07e;
+    color: white;
+    padding: 15px 15px;
+}
+
+.form-header-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.form-body {
+    padding: 20px 20px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 6px 6px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6e7072;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background-color: #33c07e;
+    border: 1px solid #2ea86f;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+}

@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    /* 讓每個元素都有框線 */
+    /* border: 1px solid black; */
+}
+
+body {
+    /* 將瀏覽器預設的留白歸零 */
+    margin: 0px;
+}
