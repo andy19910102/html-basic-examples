@@ -10,10 +10,18 @@
 </head>
 
 <body>
+    <!-- 卡片 -->
     <div class="form-box">
+        <!-- 卡片標題區 -->
         <div class="form-header">
             <h1 class="form-header-title">HTML表單</h1>
         </div>
+        <!-- 卡片標題區 end -->
+        <!-- 表單 -->
+        <!-- 
+            將表單資料寄送至 FormSpree API 
+            規則文件：https://formspree.io/ 
+        -->
         <form class="form-body" action="">
             <div class="form-group">
                 <label for="email">Email</label>
@@ -21,18 +29,19 @@
             </div>
             <div class="form-group">
                 <label for="username">姓名</label>
-                <input name="姓名" id="username" type="text" class="form-control" placeholder="請輸入您的姓名">
+                <input name="姓名" id="username" type="text" class="form-control" placeholder="請輸入您的姓名" value="預設姓名">
             </div>
             <div class="form-group">
                 <label for="comment">留言</label>
-                <textarea name="留言" id="comment" cols="30" rows="10" class="form-control"
-                    placeholder="請輸入留言"></textarea>
+                <textarea name="留言" id="comment" rows="4" class="form-control" placeholder="請輸入留言"></textarea>
             </div>
             <div class="form-group">
                 <button class="submit-btn" type="submit">送出表單</button>
             </div>
         </form>
+        <!-- 表單 end -->
     </div>
+    <!-- 卡片 end -->
 </body>
 
 </html>

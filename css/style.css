@@ -3,27 +3,37 @@ body {
     font-family: 'Microsoft Jhenghei';
 }
 
+/*============ index 頁面 ============*/
+
+
+
 /*============ cards 頁面 ============*/
+/* 卡片清單 */
 .card-list {
 
 }
 
+/* 一張卡片 */
 .card {
 
 }
 
+/* 卡片圖片 */
 .card-img {
 
 }
 
+/* 卡片文字區 */
 .card-body {
 
 }
 
+/* 卡片標題 */
 .card-title {
 
 }
 
+/* 卡片內文 */
 .card-text {
     
 }
@@ -34,7 +44,6 @@ table {
 }
 
 .price {
-
     
 }
 
@@ -43,8 +52,13 @@ table {
     max-width: 600px;
     margin: 20px auto;
     border-radius: 4px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
+    box-shadow: 0px 3px 3px rgba(41, 38, 43, 0.2);
     overflow: hidden;
+    transition: all .15s ease;
+}
+
+.form-box:hover {
+    box-shadow: 0 20px 15px rgba(41, 38, 43, 0.1);
 }
 
 .form-header {
@@ -72,10 +86,15 @@ table {
     padding: 6px 6px;
     font-size: 16px;
     line-height: 1.5;
-    color: #6e7072;
+    color: #222;
     background-color: #fff;
     border: 1px solid #ced4da;
     border-radius: 4px;
+    margin-top: 5px;
+}
+
+.form-control:focus {
+    border: 1px solid #2ea86f;
 }
 
 .submit-btn {
@@ -85,4 +104,20 @@ table {
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 4px;
+    cursor: pointer;
+    transition: all .15s ease;
+}
+
+.submit-btn:hover {
+    background-color: #2eac71;
+}
+
+.submit-btn:active {
+    background-color: #299764;
+    box-shadow: 0 0 0 3px #33c07ebe;
+}
+
+.submit-btn:focus {
+    /* 取消按鈕點擊後預設會存在的光暈 */
+    outline: none;
 }
