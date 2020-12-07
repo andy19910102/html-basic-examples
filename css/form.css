@@ -1,0 +1,91 @@
+html,body {
+    background-color: #003666;
+}
+
+body {
+    /* 使用微軟正黑體 */
+    font-family: 'Microsoft Jhenghei';
+    padding: 0px 15px;
+}
+
+.form-box {
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 4px;
+    box-shadow: 0px 3px 3px rgba(41, 38, 43, 0.2);
+    background: white;
+    overflow: hidden;
+    transition: all .15s ease;
+}
+
+.form-box:hover {
+    box-shadow: 0 20px 17px rgba(41, 38, 43, 0.5);
+}
+
+.form-header {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.form-header h1 {
+    color: #ff4f81;
+    font-size: 24px;
+    margin: 0;
+}
+
+.form-header p {
+    color: #333;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.form-body {
+    padding: 20px 20px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 6px 6px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #ff4f8146;
+}
+
+.submit-btn {
+    background-color: #ff4f81;
+    border: 1px solid #e94171;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .15s ease;
+}
+
+.submit-btn:hover {
+    background-color: #e94171;
+}
+
+.submit-btn:active {
+    background-color: #da3a67;
+    box-shadow: 0 0 0 3px #e941719a;
+}
+
+.submit-btn:focus {
+    /* 取消按鈕點擊後預設會存在的光暈 */
+    outline: none;
+}
