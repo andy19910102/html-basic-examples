@@ -1,7 +1,6 @@
+/* 讓所有元素計算大小的標準以包含框線的大小為基準 */
 * {
     box-sizing: border-box;
-    /* 讓每個元素都有框線 */
-    /* border: 1px solid black; */
 }
 
 body {

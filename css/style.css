@@ -1,6 +1,6 @@
 body {
-    /* 使用微軟正黑體 */
-    font-family: 'Microsoft Jhenghei';
+    /* 使用微軟正黑體, helvetica neue, arial, sans-serif   */
+    font-family: 'Microsoft JhengHei',  "helvetica neue", arial, sans-serif;
 }
 
 /*============ index 頁面 ============*/
@@ -13,6 +13,7 @@ body {
 .container {
 
 }
+
 /* 放置所有col的容器 */
 .row {
 
@@ -49,7 +50,7 @@ body {
 }
 
 /* 卡片分類徽章 */
-.card-badge {
+.badge {
 
 }
 
