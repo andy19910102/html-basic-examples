@@ -1,5 +1,11 @@
-html,body {
-    background-color: #003666;
+html,
+body {
+    background: #6a41ac;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6a41ac, #2f58b7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6a41ac, #2f58b7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 body {
@@ -10,16 +16,16 @@ body {
 
 .form-box {
     max-width: 600px;
-    margin: 20px auto;
+    margin: 30px auto;
     border-radius: 4px;
-    box-shadow: 0px 3px 3px rgba(41, 38, 43, 0.2);
+    box-shadow: 0px 3px 3px rgba(234, 145, 231, 0.2);
     background: white;
     overflow: hidden;
-    transition: all .15s ease;
+    transition: all .3s ease;
 }
 
 .form-box:hover {
-    box-shadow: 0 20px 17px rgba(41, 38, 43, 0.5);
+    box-shadow: 0 20px 30px rgba(234, 145, 231, 0.2);
 }
 
 .form-header {
