@@ -1,10 +1,3 @@
-body {
-    /* 使用微軟正黑體, helvetica neue, arial, sans-serif   */
-    font-family: 'Microsoft JhengHei', "helvetica neue", arial, sans-serif;
-}
-
-/*============ index 頁面 ============*/
-
 h1 {
     color: #FF416C;
     font-size: 42px;
@@ -12,32 +5,3 @@ h1 {
     text-align: center;
     text-shadow: 2px 3px 0px black;
 }
-
-/*============ cards 頁面 ============*/
-
-/* 放置所有內容的容器 */
-.container {}
-
-/* 放置所有col的容器 */
-.row {}
-
-/* 一張卡片所在的容器 */
-.col {}
-
-/* 一張卡片 */
-.card {}
-
-/* 卡片圖片 */
-.card-img {}
-
-/* 卡片文字區 */
-.card-body {}
-
-/* 卡片標題 */
-.card-title {}
-
-/* 卡片內文 */
-.card-text {}
-
-/* 卡片分類徽章 */
-.badge {}

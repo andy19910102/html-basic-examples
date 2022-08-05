@@ -1,0 +1,27 @@
+body {
+    /* 使用微軟正黑體, helvetica neue, arial, sans-serif   */
+    font-family: 'Microsoft JhengHei', "helvetica neue", arial, sans-serif;
+}
+
+footer {
+    background: black;
+    margin-top: 50px;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+footer p {
+    color: #cacaca;
+    margin: 0px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #cacaca;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+footer a:hover {
+    color: #fff;
+}
