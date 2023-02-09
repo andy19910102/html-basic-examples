@@ -1,30 +1,22 @@
-html,
-body {
-    background: #6a41ac;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6a41ac, #2f58b7);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6a41ac, #2f58b7);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 body {
     /* 使用微軟正黑體 */
     font-family: 'Microsoft Jhenghei';
+    padding: 0px 15px;
 }
 
 .form-box {
     max-width: 600px;
     margin: 30px auto;
     border-radius: 4px;
-    box-shadow: 0px 3px 3px rgba(234, 145, 231, 0.2);
+    border: 1px solid #ff00ae3f;
+    box-shadow: 0px 3px 3px #ff4ac333;
     background: white;
     overflow: hidden;
     transition: all .3s ease;
 }
 
 .form-box:hover {
-    box-shadow: 0 20px 30px rgba(234, 145, 231, 0.2);
+    box-shadow: 0 20px 30px #ff257128;
 }
 
 .form-header {
@@ -39,7 +31,7 @@ body {
 }
 
 .form-header p {
-    color: #333;
+    color: #555;
     margin-top: 5px;
     margin-bottom: 0;
 }
