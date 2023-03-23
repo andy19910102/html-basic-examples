@@ -1,3 +1,13 @@
+header {
+    padding: 20px 15px;
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+section {
+    padding: 20px 15px;
+}
+
 h1 {
     color: #FF416C;
     font-size: 42px;
