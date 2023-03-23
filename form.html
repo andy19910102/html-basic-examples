@@ -17,33 +17,36 @@
     <!-- 卡片 -->
     <div class="form-box">
         <!-- 卡片標題區 -->
-        <div class="form-header">
+        <header class="form-header">
             <h1>HTML表單</h1>
             <p>歡迎來到我的網站，如您有任何問題可透過下方的表單與我聯繫。</p>
-        </div>
+            <p>此表單使用了 <a href="https://formspree.io/" target="_blank">FormSpree API</a> 完成表單串接應用。</p>
+        </header>
         <!-- 卡片標題區 end -->
         <!-- 表單 -->
         <!-- 
             將表單資料寄送至 FormSpree API 
             規則文件：https://formspree.io/ 
         -->
-        <form action="" class="form-body">
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input name="Email" id="email" type="text" class="form-control" placeholder="請輸入您的Email">
-            </div>
-            <div class="form-group">
-                <label for="username">姓名</label>
-                <input name="姓名" id="username" type="text" class="form-control" placeholder="請輸入您的姓名" value="預設姓名">
-            </div>
-            <div class="form-group">
-                <label for="comment">您想跟我說的話</label>
-                <textarea name="留言" id="comment" rows="4" class="form-control" placeholder="請輸入留言"></textarea>
-            </div>
-            <div class="form-group">
-                <button class="submit-btn" type="submit">送出表單</button>
-            </div>
-        </form>
+        <section>
+            <form action="" class="form-body">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input name="Email" id="email" type="text" class="form-control" placeholder="請輸入您的Email">
+                </div>
+                <div class="form-group">
+                    <label for="username">姓名</label>
+                    <input name="姓名" id="username" type="text" class="form-control" placeholder="請輸入您的姓名" value="預設姓名">
+                </div>
+                <div class="form-group">
+                    <label for="comment">您想跟我說的話</label>
+                    <textarea name="留言" id="comment" rows="4" class="form-control" placeholder="請輸入留言"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="submit-btn" type="submit">送出表單</button>
+                </div>
+            </form>
+        </section>
         <!-- 表單 end -->
     </div>
     <!-- 卡片 end -->
