@@ -19,7 +19,7 @@
         <h1>這是標題字</h1>
         <p>歡迎來到我的網站。</p>
         <p>溫馨提示：想要打註解請在編輯區按下 <kbd>Ctrl</kbd> + <kbd>/</kbd>。</p>
-        <p>如需下載練習檔案可至此網址：<a href="https://enn.design/html" target="_blank">https://enn.design/html</a></p>
+        <p>如需下載練習檔案可至此網址：<a href="https://enn.design/html" target="_blank">https://enn.design/html</a>。</p>
     </header>
 
     <section>
@@ -39,7 +39,7 @@
 
     <section>
         <h2>超連結(a)</h2>
-        <p>產生a標籤，試著輸入: a + <kbd>Tab</kbd></p>
+        <p>產生a標籤，試著輸入: a + <kbd>Tab</kbd>。</p>
         <!-- ########## 試著在以下區域加入超連結 ########## -->
 
 
@@ -49,19 +49,37 @@
     <section>
         <h2>其他常見的文字標籤</h2>
         <ul>
-            <li>使用 <strong>strong標籤</strong> 表示強調資訊文字</li>
-            <li>使用 <em>em標籤</em> 表示強調且斜體文字</li>
-            <li>使用 <small>small標籤</small> 表示次要資訊文字</li>
-            <li>使用 <s>s標籤</s> 表示不再正確或是被需要的文字</li>
-        </ul>
+            <li>使用 <strong>strong標籤</strong> 表示強調資訊文字。</li>
+            <li>使用 <em>em標籤</em> 表示強調且斜體文字。</li>
+            <li>使用 <small>small標籤</small> 表示次要資訊文字。</li>
+            <li>使用 <s>s標籤</s> 表示不再正確或是被需要的文字。</li>
+            <li>使用 <sub>sub標籤</sub> 表達下標小字，例如表達化學式：N<sub>2</sub>H<sub>4</sub>。</li>
+            <li>使用 <sup>sup標籤</sup> 表達上標小字，例如表達方程式：E = mc<sup>2</sup>。</li>
+            <li>
+                使用 ruby標籤 搭配 rt標籤 標註文字發音，例如：
+                <ruby>
+                    <ruby>
+                        軽<rt>かる</rt>
+                        井<rt>い</rt>
+                        沢<rt>ざわ</rt>
+                    </ruby>
+                </ruby>
+                。
+            </li>
+            <li>
+                使用 <button>button標籤</button> 表達按鈕。<br>
 
+                按鈕點了要有作用需要搭配 JavaScript 程式 <button id="alertBtn">點我顯示一段固定的文字</button>
+            </li>
+        </ul>
     </section>
+
     <footer>
         <p>Copyright &copy;2023 <a target="_blank" href="https://github.com/andy19910102/html-basic-examples">
                 Github Repository <i class="fa-brands fa-github-alt"></i></a> </p>
     </footer>
 
-
+    <script src="./javascript/main.js"></script>
 </body>
 
 </html>

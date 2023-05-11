@@ -8,9 +8,11 @@ section {
     padding: 20px 15px;
 }
 
+/* ########## 試著調整以下選擇目標的樣式 ########## */
+
 h1 {
-    color: #FF416C;
-    font-size: 42px;
+    color: #f43f69;
+    font-size: 36px;
     letter-spacing: 5px;
     text-align: center;
     text-shadow: 2px 3px 0px black;
